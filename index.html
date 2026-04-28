@@ -1,0 +1,459 @@
+
+
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英語 基本文型マスタートレーニング</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 15px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-size: 1.4em;
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        .concept-message {
+            background: #e8f4f8;
+            padding: 15px;
+            border-left: 5px solid #3498db;
+            border-radius: 4px;
+            font-size: 0.9em;
+            margin-bottom: 20px;
+        }
+        .concept-message strong { color: #e74c3c; }
+        .toggle-btn {
+            width: 100%;
+            padding: 12px;
+            background: #2c3e50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            margin-bottom: 15px;
+        }
+        .summary-content {
+            display: none;
+            background: #fafafa;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            max-height: 400px;
+            overflow-y: auto;
+            font-size: 0.9em;
+        }
+        /* 文の要素の色分け */
+        .s { color: #e74c3c; font-weight: bold; } /* 赤: S */
+        .v { color: #3498db; font-weight: bold; } /* 青: V */
+        .o { color: #e67e22; font-weight: bold; } /* 橙: O */
+        .c { color: #2ecc71; font-weight: bold; } /* 緑: C */
+        
+        .pattern-item { border-bottom: 1px dashed #ccc; margin-bottom: 15px; padding-bottom: 10px; }
+        .pattern-item:last-child { border-bottom: none; }
+        .pattern-item h4 { margin: 0 0 5px 0; font-size: 1.05em; color: #333; }
+        .pattern-item p.desc { margin: 2px 0 8px 0; color: #555; font-size: 0.85em; font-weight: bold; }
+        .pattern-item ul { margin: 0; padding-left: 20px; }
+        .pattern-item li { margin-bottom: 6px; }
+        .note { font-size: 0.85em; color: #666; display: block; margin-top: 4px; }
+
+        .app-area {
+            background: #fff;
+            border: 2px solid #3498db;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        select, input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .question-box {
+            font-size: 1.1em;
+            font-weight: bold;
+            margin: 15px 0;
+            color: #2c3e50;
+            border-bottom: 2px dotted #3498db;
+            padding-bottom: 10px;
+        }
+        .action-btn {
+            width: 100%;
+            padding: 14px;
+            background: #3498db;
+            color: white;
+            border: none;
+            font-size: 1.1em;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .action-btn:hover { background: #2980b9; }
+        .next-btn { background: #f39c12; margin-top: 15px; display: none; }
+        .next-btn:hover { background: #d68910; }
+        
+        .result-box {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            display: none;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .correct { background: #d4efdf; border-left: 5px solid #27ae60; color: #1e8449; }
+        .incorrect { background: #fadbd8; border-left: 5px solid #e74c3c; color: #c0392b; }
+        .answer-detail { margin-top: 10px; font-size: 0.95em; color: #333; }
+        .answer-detail span.label { font-weight: bold; display: inline-block; width: 80px; }
+        .pattern-badge {
+            display: inline-block;
+            background: #34495e;
+            color: #fff;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>和文英訳・基本文型トレーニング</h1>
+    
+    <div class="concept-message">
+        <p>どんな難解な英文も、一文一文の構造は必ず<strong>この13項目（全30パターン）のどれか</strong>に当てはまります。</p>
+        <p>文の要素を特定し、型を意識しながら毎日トレーニングしましょう。</p>
+    </div>
+
+    <button class="toggle-btn" onclick="toggleSummary()">基本文型と表現のまとめを確認する ▼</button>
+    
+    <div class="summary-content" id="summaryContent">
+        <!-- 1. S+V -->
+        <div class="pattern-item">
+            <h4>1. <span class="s">S</span>+<span class="v">V</span></h4>
+            <p class="desc">（主語は何をするのか）</p>
+            <ul>
+                <li>・ <span class="s">He</span> <span class="v">smiled</span>.</li>
+                <li>・ The <span class="s">store</span> <span class="v">opens</span> at ten.</li>
+            </ul>
+        </div>
+        <!-- 2. S+V+C -->
+        <div class="pattern-item">
+            <h4>2. <span class="s">S</span>+<span class="v">V</span>+<span class="c">C</span></h4>
+            <p class="desc">（主語はどうなのか・何なのか）</p>
+            <ul>
+                <li>・ The <span class="s">movie</span> <span class="v">was</span> <span class="c">funny</span>. [補語が形容詞]</li>
+                <li>・ My <span class="s">uncle</span> <span class="v">is</span> an <span class="c">actor</span>.[補語が名詞]</li>
+                <li>・ <span class="s">It</span> <span class="v">is</span> <span class="c">fun</span> to meet new people.</li>
+                <li>・ <span class="s">It</span> <span class="v">is</span> <span class="c">true</span> that Bill passed the exam.</li>
+            </ul>
+            <span class="note">[主語が不定詞や that 節の場合は、形式主語 it を使う。]</span>
+        </div>
+        <!-- 3. S+V+O -->
+        <div class="pattern-item">
+            <h4>3. <span class="s">S</span>+<span class="v">V</span>+<span class="o">O</span></h4>
+            <p class="desc">（主語は何をどうするのか）</p>
+            <ul>
+                <li>・ <span class="s">We</span> <span class="v">cleaned</span> the <span class="o">classroom</span>.[目的語になるのは名詞]</li>
+                <li>・ <span class="s">I</span> <span class="v">hope</span> <span class="o">to go</span> to Italy next year.</li>
+                <li>・ The <span class="s">man</span> <span class="v">admitted</span> <span class="o">stealing</span> the bicycle.</li>
+                <li>・ <span class="s">I</span> can't <span class="v">believe</span> <span class="o">(that)</span> he is an artist.</li>
+            </ul>
+            <span class="note">[目的語として不定詞や動名詞、that 節を使うことがある。]</span>
+        </div>
+        <!-- 4. S+V+O+O -->
+        <div class="pattern-item">
+            <h4>4. <span class="s">S</span>+<span class="v">V</span>+<span class="o">O</span>+<span class="o">O</span></h4>
+            <p class="desc">（主語は何を誰にどうするのか）</p>
+            <ul>
+                <li>・ <span class="s">I</span> <span class="v">lent</span> <span class="o">Jim</span> ten <span class="o">dollars</span>. [誰かに～する]</li>
+                <li>・ My <span class="s">father</span> <span class="v">bought</span> <span class="o">me</span> a <span class="o">watch</span>. [誰かの為に～する]</li>
+            </ul>
+        </div>
+        <!-- 5. S+V+O+C -->
+        <div class="pattern-item">
+            <h4>5. <span class="s">S</span>+<span class="v">V</span>+<span class="o">O</span>+<span class="c">C</span></h4>
+            <p class="desc">（主語は何をどういう状態にするのか・どのように思うのか）</p>
+            <ul>
+                <li>・ <span class="s">They</span> <span class="v">made</span> <span class="o">me</span> <span class="c">angry</span>.</li>
+                <li>・ <span class="s">You</span> will <span class="v">find</span> his <span class="o">brother</span> <span class="c">cool</span>.</li>
+                <li>・ <span class="s">We</span> <span class="v">call</span> <span class="o">him</span> <span class="c">Bill</span>.[誰/何かを～と呼ぶ]</li>
+                <li>・ <span class="s">I</span> <span class="v">thought</span> <span class="o">it</span> <span class="c">possible</span> to solve the problem.</li>
+                <li>・ <span class="s">He</span> <span class="v">made</span> <span class="o">it</span> <span class="c">clear</span> that he is innocent. ←この文では that は省略出来ない。</li>
+            </ul>
+            <span class="note">[目的語が不定詞や that 節の場合は、形式目的語 it を使う。]</span>
+        </div>
+        <!-- 6. S+V+O+C (Cが不定詞) -->
+        <div class="pattern-item">
+            <h4>6. <span class="s">S</span>+<span class="v">V</span>+<span class="o">O</span>+<span class="c">C</span>(C が不定詞のパターン)</h4>
+            <p class="desc">（主語は何に何をさせたいのか）</p>
+            <ul>
+                <li>・ <span class="s">I</span> <span class="v">want</span> <span class="o">you</span> <span class="c">to be</span> more careful.</li>
+                <li>・ My <span class="s">mother</span> <span class="v">told</span> <span class="o">me</span> <span class="c">to eat</span> more vegetables.</li>
+            </ul>
+        </div>
+        <!-- 7. S+V+O+C (使役動詞) -->
+        <div class="pattern-item">
+            <h4>7. <span class="s">S</span>+<span class="v">V</span>+<span class="o">O</span>+<span class="c">C</span>(C が動詞の原形のパターンで V は使役動詞)</h4>
+            <p class="desc">（主語は何に何をさせるのか・してもらうのか）</p>
+            <ul>
+                <li>・ My <span class="s">mother</span> <span class="v">made</span> <span class="o">me</span> <span class="c">wait</span> outside the store.</li>
+                <li>・ <span class="s">He</span> <span class="v">had</span> the <span class="o">doctor</span> <span class="c">look</span> at his leg.</li>
+            </ul>
+        </div>
+        <!-- 8. S+V+O+C (知覚動詞) -->
+        <div class="pattern-item">
+            <h4>8. <span class="s">S</span>+<span class="v">V</span>+<span class="o">O</span>+<span class="c">C</span>(C が動詞の原型のパターンで V は知覚動詞)</h4>
+            <p class="desc">(主語は何が何をするのを見る・聞くのか）</p>
+            <ul>
+                <li>・ <span class="s">I</span> <span class="v">saw</span> the <span class="o">boy</span> <span class="c">fall</span> down.</li>
+            </ul>
+        </div>
+        <!-- 9. S+V+O+C (分詞) -->
+        <div class="pattern-item">
+            <h4>9. <span class="s">S</span>+<span class="v">V</span>+<span class="o">O</span>+<span class="c">C</span>(C が分詞のパターン)</h4>
+            <p class="desc">(主語は何をどういう状態にするのか）</p>
+            <ul>
+                <li>・ <span class="s">He</span> <span class="v">kept</span> <span class="o">me</span> <span class="c">waiting</span> for forty minutes.[現在分詞（～している）]</li>
+                <li>・ <span class="s">We</span> usually <span class="v">keep</span> the <span class="o">window</span> <span class="c">locked</span>.[過去分詞（～される）]</li>
+            </ul>
+        </div>
+        <!-- 10. S+V+O+C (分詞・使役) -->
+        <div class="pattern-item">
+            <h4>10. <span class="s">S</span>+<span class="v">V</span>+<span class="o">O</span>+<span class="c">C</span>(C は分詞のパターンで V は使役動詞)</h4>
+            <p class="desc">(主語は何をどうさせるのか・どうしてもらうのか）</p>
+            <ul>
+                <li>・ <span class="s">He</span> <span class="v">got</span> the <span class="o">machine</span> <span class="c">working</span>.[現在分詞（～している）]</li>
+                <li>・ <span class="s">I</span> <span class="v">had</span> my <span class="o">hair</span> <span class="c">cut</span> at a famous beauty salon.[過去分詞（～される）]</li>
+            </ul>
+        </div>
+        <!-- 11. S+V+O+C (分詞・知覚) -->
+        <div class="pattern-item">
+            <h4>11. <span class="s">S</span>+<span class="v">V</span>+<span class="o">O</span>+<span class="c">C</span>(C は分詞のパターンで V は知覚動詞)</h4>
+            <p class="desc">（主語は何がどういう状態であるのかを見る・聞くのか）</p>
+            <ul>
+                <li>・ <span class="s">We</span> <span class="v">saw</span> a <span class="o">bird</span> <span class="c">building</span> a nest.[現在分詞（～している）]</li>
+                <li>・ <span class="s">I</span> <span class="v">saw</span> a little <span class="o">girl</span> <span class="c">scolded</span> by her mother. [過去分詞（～される）]</li>
+            </ul>
+        </div>
+        <!-- 12. There+be -->
+        <div class="pattern-item">
+            <h4>12. <span class="s">There</span>+<span class="v">be 動詞</span>+<span class="s">名詞</span></h4>
+            <p class="desc">（何がいる・何があるのか）</p>
+            <ul>
+                <li>・ There <span class="v">is</span> a <span class="s">cat</span> under the table.</li>
+            </ul>
+        </div>
+        <!-- 13. S+be+過去分詞 -->
+        <div class="pattern-item">
+            <h4>13. <span class="s">S</span>+<span class="v">be 動詞</span>+<span class="v">過去分詞</span></h4>
+            <p class="desc">（主語は何をされるのか）</p>
+            <ul>
+                <li>・ This <span class="s">car</span> was <span class="v">repaired</span> by my brother.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- アプリ領域 -->
+    <div class="app-area">
+        <label for="levelSelect" style="font-weight:bold;">挑戦するレベルを選択：</label>
+        <select id="levelSelect" onchange="loadNewQuestion()">
+            <option value="1">レベル1：英検3級</option>
+            <option value="2">レベル2：英検準2級</option>
+            <option value="3">レベル3：英検準2級plus</option>
+            <option value="4">レベル4：英検2級</option>
+            <option value="5">レベル5：英検準1級</option>
+            <option value="6">レベル6：英検1級</option>
+            <option value="7">レベル7：東大・京大和文英訳スタイル</option>
+        </select>
+
+        <div id="patternBadge" class="pattern-badge" style="display:none;"></div>
+        <div class="question-box" id="questionText">問題データを読み込んでいます...</div>
+        
+        <input type="text" id="userAnswer" placeholder="英文を入力してください..." autocomplete="off">
+        
+        <button class="action-btn" id="checkBtn" onclick="checkAnswer()" style="display:none;">添削する</button>
+        
+        <div id="resultBox" class="result-box">
+            <h3 id="resultTitle" style="margin-top:0;"></h3>
+            <div class="answer-detail">
+                <p><span class="label">模範解答:</span> <strong id="correctAnswer" style="color:#2980b9;"></strong></p>
+                <p><span class="label">該当文型:</span> <span id="patternTypeDetail" style="color:#e74c3c; font-weight:bold;"></span></p>
+            </div>
+        </div>
+
+        <button class="action-btn next-btn" id="nextBtn" onclick="loadNewQuestion()">次の問題へ</button>
+    </div>
+</div>
+
+<script>
+    // ==========================================
+    // 1. パターンマスター（全30種類の例文型定義）
+    // ==========================================
+    const PATTERN_MASTER = {
+        1: "1. S+V (状態・動作の基本)",
+        2: "1. S+V (時・場所を伴う)",
+        3: "2. S+V+C [補語が形容詞]",
+        4: "2. S+V+C [補語が名詞]",
+        5: "2. S+V+C [形式主語it / to do]",
+        6: "2. S+V+C [形式主語it / that節]",
+        7: "3. S+V+O[目的語が名詞]",
+        8: "3. S+V+O [目的語が不定詞]",
+        9: "3. S+V+O [目的語が動名詞]",
+        10: "3. S+V+O [目的語がthat節]",
+        11: "4. S+V+O+O [誰かに～を（与える型）]",
+        12: "4. S+V+O+O [誰かの為に～を（買う型）]",
+        13: "5. S+V+O+C [OをCにする]",
+        14: "5. S+V+O+C [OがCだとわかる/思う]",
+        15: "5. S+V+O+C [OをCと呼ぶ]",
+        16: "5. S+V+O+C [形式目的語it / to do]",
+        17: "5. S+V+O+C [形式目的語it / that節]",
+        18: "6. S+V+O+C [Cが不定詞 / want O to do]",
+        19: "6. S+V+O+C [Cが不定詞 / tell O to do]",
+        20: "7. S+V+O+C [使役動詞 make O do]",
+        21: "7. S+V+O+C [使役動詞 have O do]",
+        22: "8. S+V+O+C [知覚動詞 see O do]",
+        23: "9. S+V+O+C [Cが現在分詞 / keep O doing]",
+        24: "9. S+V+O+C[Cが過去分詞 / keep O p.p.]",
+        25: "10. S+V+O+C[使役動詞 get O doing]",
+        26: "10. S+V+O+C[使役動詞 have O p.p.]",
+        27: "11. S+V+O+C [知覚動詞 see O doing]",
+        28: "11. S+V+O+C [知覚動詞 see O p.p.]",
+        29: "12. There+be 動詞+名詞",
+        30: "13. S+be 動詞+過去分詞 (受動態)"
+    };
+
+    // ==========================================
+    // 2. 問題データをJSONファイルから読み込む
+    // ==========================================
+    let questions =[];
+    let currentQuestion = null;
+
+    async function loadQuestionsData() {
+        try {
+            // questions.json を非同期で取得
+            const response = await fetch('questions.json');
+            if (!response.ok) {
+                throw new Error('ネットワークエラー');
+            }
+            questions = await response.json();
+            
+            // 読み込み完了後、最初の問題を表示
+            loadNewQuestion();
+        } catch (error) {
+            console.error('JSONデータの読み込みに失敗しました:', error);
+            document.getElementById("questionText").innerHTML = "<span style='color:red;'>問題データの読み込みに失敗しました。<br>ローカルサーバーを使用しているか確認してください。</span>";
+            document.getElementById("checkBtn").style.display = "none";
+        }
+    }
+
+    // まとめ部分の表示・非表示
+    function toggleSummary() {
+        const content = document.getElementById("summaryContent");
+        content.style.display = (content.style.display === "block") ? "none" : "block";
+    }
+
+    // 問題の表示処理
+    function loadNewQuestion() {
+        if (questions.length === 0) return; // データがまだない場合は何もしない
+
+        const level = document.getElementById("levelSelect").value;
+        const filteredQs = questions.filter(q => String(q.level) === level);
+        
+        if(filteredQs.length === 0) {
+            document.getElementById("patternBadge").style.display = "none";
+            document.getElementById("questionText").innerText = "このレベルの問題はまだ登録されていません。";
+            document.getElementById("checkBtn").style.display = "none";
+            document.getElementById("nextBtn").style.display = "none";
+            document.getElementById("resultBox").style.display = "none";
+            return;
+        }
+
+        // ランダム出題
+        const randomIndex = Math.floor(Math.random() * filteredQs.length);
+        currentQuestion = filteredQs[randomIndex];
+
+        // 画面の更新
+        document.getElementById("patternBadge").style.display = "inline-block";
+        document.getElementById("patternBadge").innerText = "パターンID: " + currentQuestion.patternId;
+        document.getElementById("questionText").innerText = currentQuestion.ja;
+        document.getElementById("userAnswer").value = "";
+        
+        // UIリセット
+        document.getElementById("resultBox").style.display = "none";
+        document.getElementById("checkBtn").style.display = "block";
+        document.getElementById("nextBtn").style.display = "none";
+    }
+
+    // 添削時の文字列正規化
+    function normalizeString(str) {
+        return str.toLowerCase()
+                  .replace(/[.,!?]/g, "")
+                  .replace(/\s+/g, " ")
+                  .trim();
+    }
+
+    // 添削処理
+    function checkAnswer() {
+        if (!currentQuestion) return;
+
+        const userAnswer = document.getElementById("userAnswer").value;
+        if (!userAnswer) {
+            alert("英文を入力してください！");
+            return;
+        }
+
+        const normalizedUser = normalizeString(userAnswer);
+        const normalizedCorrect = normalizeString(currentQuestion.en);
+        const resultBox = document.getElementById("resultBox");
+        const resultTitle = document.getElementById("resultTitle");
+
+        resultBox.className = "result-box"; 
+
+        if (normalizedUser === normalizedCorrect) {
+            resultTitle.innerText = "🎉 完璧です！正解！";
+            resultBox.classList.add("correct");
+        } else {
+            resultTitle.innerText = "💡 惜しい！添削結果を確認しましょう。";
+            resultBox.classList.add("incorrect");
+        }
+
+        const patternName = PATTERN_MASTER[currentQuestion.patternId];
+        document.getElementById("correctAnswer").innerText = currentQuestion.en;
+        document.getElementById("patternTypeDetail").innerText = patternName;
+        
+        resultBox.style.display = "block";
+        document.getElementById("checkBtn").style.display = "none";
+        document.getElementById("nextBtn").style.display = "block";
+    }
+
+    // 画面読み込み時にJSONファイルを取得しにいく
+    window.onload = loadQuestionsData;
+</script>
+
+</body>
+</html>
