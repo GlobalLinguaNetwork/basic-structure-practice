@@ -29,7 +29,6 @@
   { "level": "4", "patternId": 28, "ja": "一部の労働者は、自分の伝統的な役割が精巧なアルゴリズムに取って代わられたことに気づきます。", "en": "Some workers find their traditional roles replaced by sophisticated algorithms." },
   { "level": "4", "patternId": 29, "ja": "職場におけるAIの倫理的な影響について、懸念が高まっています。", "en": "There are growing concerns about the ethical implications of AI in the workplace." },
   { "level": "4", "patternId": 30, "ja": "AI技術が進化し続けるにつれて、全く新しい職種が創出されるでしょう。", "en": "Entirely new job categories will be created as AI technology continues to evolve." },
-  ```json
 [
   {
     "level": "5",
@@ -330,5 +329,5 @@
   { "level": "3", "patternId": 27, "ja": "AIが一部の専門職の役割を徐々に奪いつつある状況が見受けられます。", "en": "We can find AI gradually replacing the roles of some professional occupations." },
   { "level": "3", "patternId": 28, "ja": "単純なデータ入力などの仕事がAIによって消滅したという事例が散見されます。", "en": "We find jobs such as simple data entry eliminated by AI in various cases." },
   { "level": "3", "patternId": 29, "ja": "AIの進化に伴い、AIの倫理的な利用を監督するという新しい役割が必要になっています。", "en": "With the evolution of AI, there is a need for new roles, such as overseeing the ethical use of AI." },
-  { "level": "3", "patternId": 30, "ja": "AIによって多くの仕事が失われる一方で、これまで存在しなかった全く新しい職種が創出されるでしょう。", "en": "While many jobs will be lost to AI, entirely new occupations that never existed before will be created." },
+  { "level": "3", "patternId": 30, "ja": "AIによって多くの仕事が失われる一方で、これまで存在しなかった全く新しい職種が創出されるでしょう。", "en": "While many jobs will be lost to AI, entirely new occupations that never existed before will be created." }
 ]
