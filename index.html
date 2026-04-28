@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -356,7 +353,7 @@
     async function loadQuestionsData() {
         try {
             // questions.json を非同期で取得
-            const response = await fetch('questions.json');
+            const response = await fetch('data/questions.json');
             if (!response.ok) {
                 throw new Error('ネットワークエラー');
             }
