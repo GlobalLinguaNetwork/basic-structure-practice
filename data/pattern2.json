@@ -1,0 +1,22 @@
+[
+  { "id": 1, "ja": "その店は10時に閉まります。", "en": "The store closes at ten." },
+  { "id": 2, "ja": "その店は月曜日に開店します。", "en": "The store opens on Monday." },
+  { "id": 3, "ja": "その店は日曜日に閉まります。", "en": "The store closes on Sunday." },
+  { "id": 4, "ja": "その店は1時間後に開店します。", "en": "The store opens in an hour." },
+  { "id": 5, "ja": "その店は正午に開店します。", "en": "The store opens at noon." },
+  { "id": 6, "ja": "その店は深夜0時に閉まります。", "en": "The store closes at midnight." },
+  { "id": 7, "ja": "その店は昼休みに閉まります。", "en": "The store closes for lunch." },
+  { "id": 8, "ja": "その店はシーズンに合わせて開店します。", "en": "The store opens for the season." },
+  { "id": 9, "ja": "その店は市街地で営業しています。", "en": "The store operates in the city." },
+  { "id": 10, "ja": "その店はこの近所にあります。", "en": "The store exists in this neighborhood." },
+  { "id": 11, "ja": "その店は休暇明けに開店します。", "en": "The store opens after the holiday." },
+  { "id": 12, "ja": "その店は嵐の前に閉まりました。", "en": "The store closed before the storm." },
+  { "id": 13, "ja": "その店はこのエリアで繁盛しています。", "en": "The store thrives in this area." },
+  { "id": 14, "ja": "その店はアンティークを専門にしています。", "en": "The store specializes in antiques." },
+  { "id": 15, "ja": "その店はショッピングモールの中にあります。", "en": "The store resides in a mall." },
+  { "id": 16, "ja": "その店は地図に載っています。", "en": "The store appears on the map." },
+  { "id": 17, "ja": "その店は2020年に潰れました。", "en": "The store failed in 2020." },
+  { "id": 18, "ja": "その店は市場で生き残っています。", "en": "The store persists in the market." },
+  { "id": 19, "ja": "その店は火災から復旧しました。", "en": "The store recovered from the fire." },
+  { "id": 20, "ja": "その店は地図から消えました。", "en": "The store disappeared from the map." }
+]

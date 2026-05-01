@@ -1,0 +1,22 @@
+[
+  { "id": 1, "ja": "彼女にプレゼントをあげた。", "en": "I gave her a present." },
+  { "id": 2, "ja": "彼は私に秘密を教えてくれた。", "en": "He told me a secret." },
+  { "id": 3, "ja": "彼女は私に写真を見せてくれた。", "en": "She showed me the photo." },
+  { "id": 4, "ja": "彼にメールを送った。", "en": "I sent him an email." },
+  { "id": 5, "ja": "両親がパソコンを買ってくれた。", "en": "My parents bought me a computer." },
+  { "id": 6, "ja": "先生は私たちに数学を教えた。", "en": "The teacher taught us math." },
+  { "id": 7, "ja": "彼は私に塩を取ってくれた。", "en": "He passed me the salt." },
+  { "id": 8, "ja": "彼女にお礼の手紙を書いた。", "en": "I wrote her a thank-you note." },
+  { "id": 9, "ja": "彼女は私に仕事をオファーしてくれた。", "en": "She offered me a job." },
+  { "id": 10, "ja": "あなたにコーヒーを持ってきたよ。", "en": "I brought you some coffee." },
+  { "id": 11, "ja": "彼は私に10ドル払った。", "en": "He paid me ten dollars." },
+  { "id": 12, "ja": "飲み物を奢るよ。", "en": "I'll buy you a drink." },
+  { "id": 13, "ja": "彼女は子供たちに物語を読み聞かせた。", "en": "She read the children a story." },
+  { "id": 14, "ja": "彼に傘を貸した。", "en": "I lent him my umbrella." },
+  { "id": 15, "ja": "彼から電話があった。", "en": "He gave me a call." },
+  { "id": 16, "ja": "彼らに道を教えた。", "en": "I showed them the way." },
+  { "id": 17, "ja": "彼女は彼に真実を伝えた。", "en": "She told him the truth." },
+  { "id": 18, "ja": "上司が昇進させてくれた。", "en": "My boss gave me a promotion." },
+  { "id": 19, "ja": "彼女にメッセージ（テキスト）を送った。", "en": "I sent her a text message." },
+  { "id": 20, "ja": "彼は私に書類を手渡した。", "en": "He handed me the document." }
+]

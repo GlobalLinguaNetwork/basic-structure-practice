@@ -1,0 +1,22 @@
+[
+  { "id": 1, "ja": "私の父は教師です。", "en": "My father is a teacher." },
+  { "id": 2, "ja": "私の姉は学生です。", "en": "My sister is a student." },
+  { "id": 3, "ja": "私の母は看護師です。", "en": "My mother is a nurse." },
+  { "id": 4, "ja": "私の友人は医者です。", "en": "My friend is a doctor." },
+  { "id": 5, "ja": "私の弟はエンジニアです。", "en": "My brother is an engineer." },
+  { "id": 6, "ja": "私のいとこは弁護士です。", "en": "My cousin is a lawyer." },
+  { "id": 7, "ja": "私の叔母は料理人です。", "en": "My aunt is a chef." },
+  { "id": 8, "ja": "私の親友はミュージシャンです。", "en": "My best friend is a musician." },
+  { "id": 9, "ja": "私のボスはマネージャーです。", "en": "My boss is a manager." },
+  { "id": 10, "ja": "私の兄はプログラマーです。", "en": "My brother is a programmer." },
+  { "id": 11, "ja": "私の妹はデザイナーです。", "en": "My sister is a designer." },
+  { "id": 12, "ja": "私の父は会計士です。", "en": "My father is an accountant." },
+  { "id": 13, "ja": "私の友人は芸術家です。", "en": "My friend is an artist." },
+  { "id": 14, "ja": "私の叔父は警察官です。", "en": "My uncle is a police officer." },
+  { "id": 15, "ja": "私の祖母は作家です。", "en": "My grandmother is a writer." },
+  { "id": 16, "ja": "私のいとこはパイロットです。", "en": "My cousin is a pilot." },
+  { "id": 17, "ja": "私の同僚はコンサルタントです。", "en": "My colleague is a consultant." },
+  { "id": 18, "ja": "私のルームメイトは俳優です。", "en": "My roommate is an actor." },
+  { "id": 19, "ja": "私の甥はアスリートです。", "en": "My nephew is an athlete." },
+  { "id": 20, "ja": "私の叔母は歯科医です。", "en": "My aunt is a dentist." }
+]

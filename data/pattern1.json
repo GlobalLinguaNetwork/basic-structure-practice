@@ -1,0 +1,22 @@
+[
+  { "id": 1, "ja": "彼は笑った。", "en": "He laughed." },
+  { "id": 2, "ja": "彼は泣いた。", "en": "He cried." },
+  { "id": 3, "ja": "彼はうなずいた。", "en": "He nodded." },
+  { "id": 4, "ja": "彼はため息をついた。", "en": "He sighed." },
+  { "id": 5, "ja": "彼は立ち止まった。", "en": "He paused." },
+  { "id": 6, "ja": "彼は眉をひそめた。", "en": "He frowned." },
+  { "id": 7, "ja": "彼は赤面した。", "en": "He blushed." },
+  { "id": 8, "ja": "彼は肩をすくめた。", "en": "He shrugged." },
+  { "id": 9, "ja": "彼は息を呑んだ。", "en": "He gasped." },
+  { "id": 10, "ja": "彼は顔をしかめた。", "en": "He winced." },
+  { "id": 11, "ja": "彼は震えた。", "en": "He trembled." },
+  { "id": 12, "ja": "彼はにやりと笑った。", "en": "He grinned." },
+  { "id": 13, "ja": "彼はにこやかに笑った。", "en": "He beamed." },
+  { "id": 14, "ja": "彼はまばたきした。", "en": "He blinked." },
+  { "id": 15, "ja": "彼はためらった。", "en": "He hesitated." },
+  { "id": 16, "ja": "彼はうめいた。", "en": "He groaned." },
+  { "id": 17, "ja": "彼はにやにやした。", "en": "He smirked." },
+  { "id": 18, "ja": "彼は身震いした。", "en": "He shuddered." },
+  { "id": 19, "ja": "彼は崩れ落ちた。", "en": "He collapsed." },
+  { "id": 20, "ja": "彼は消えた。", "en": "He vanished." }
+]

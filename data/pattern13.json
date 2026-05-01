@@ -1,0 +1,22 @@
+[
+  { "id": 1, "ja": "彼らは私を幸せにしてくれた。", "en": "They made me happy." },
+  { "id": 2, "ja": "彼らは私を悲しませた。", "en": "They made me sad." },
+  { "id": 3, "ja": "彼らは私を混乱させた。", "en": "They made me confused." },
+  { "id": 4, "ja": "彼らは私を緊張させた。", "en": "They made me nervous." },
+  { "id": 5, "ja": "彼らは私をワクワクさせた。", "en": "They made me excited." },
+  { "id": 6, "ja": "彼らは私を驚かせた。", "en": "They made me surprised." },
+  { "id": 7, "ja": "彼らは私を誇らしく思わせてくれた。", "en": "They made me proud." },
+  { "id": 8, "ja": "彼らは私を不安にさせた。", "en": "They made me anxious." },
+  { "id": 9, "ja": "彼らは私を疲れさせた。", "en": "They made me tired." },
+  { "id": 10, "ja": "彼らは私を不快にさせた。", "en": "They made me uncomfortable." },
+  { "id": 11, "ja": "彼らは私をイライラさせた。", "en": "They made me impatient." },
+  { "id": 12, "ja": "彼らは私を動揺させた。", "en": "They made me upset." },
+  { "id": 13, "ja": "彼らは私に自信を持たせてくれた。", "en": "They made me confident." },
+  { "id": 14, "ja": "彼らは私を好奇心にさせた。", "en": "They made me curious." },
+  { "id": 15, "ja": "彼らは私を落ち着かせた。", "en": "They made me calm." },
+  { "id": 16, "ja": "彼らは私を心地よくさせた。", "en": "They made me comfortable." },
+  { "id": 17, "ja": "彼らは私を感情的にさせた。", "en": "They made me emotional." },
+  { "id": 18, "ja": "彼らは私に希望を持たせてくれた。", "en": "They made me hopeful." },
+  { "id": 19, "ja": "彼らは私を恥ずかしくさせた。", "en": "They made me embarrassed." },
+  { "id": 20, "ja": "彼らは私を眠くさせた。", "en": "They made me sleepy." }
+]

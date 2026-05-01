@@ -1,0 +1,22 @@
+[
+  { "id": 1, "ja": "私は日本に行きたいです。", "en": "I want to go to Japan." },
+  { "id": 2, "ja": "私は今、家に帰る必要があります。", "en": "I need to go home now." },
+  { "id": 3, "ja": "彼はそれをやろうと試みた。", "en": "He tried to do it." },
+  { "id": 4, "ja": "私たちは明日、会う計画です。", "en": "We plan to meet tomorrow." },
+  { "id": 5, "ja": "彼女は大学に進学することに決めた。", "en": "She decided to go to college." },
+  { "id": 6, "ja": "あなたにまた会えることを願っています。", "en": "I hope to see you again." },
+  { "id": 7, "ja": "私はドアに鍵をかけるのを忘れた。", "en": "I forgot to lock the door." },
+  { "id": 8, "ja": "彼は私を助けると約束した。", "en": "He promised to help me." },
+  { "id": 9, "ja": "私は泳ぎ方を習った。", "en": "I learned to swim." },
+  { "id": 10, "ja": "なんとか時間通りに到着できた。", "en": "I managed to arrive on time." },
+  { "id": 11, "ja": "彼らはその条件に同意した。", "en": "They agreed to the terms." },
+  { "id": 12, "ja": "私は家にいることを選んだ。", "en": "I chose to stay home." },
+  { "id": 13, "ja": "彼は質問に答えるのを拒否した。", "en": "He refused to answer the question." },
+  { "id": 14, "ja": "彼女は寝たふりをした。", "en": "She pretended to be asleep." },
+  { "id": 15, "ja": "彼は私を車で送ると申し出てくれた。", "en": "He offered to drive me." },
+  { "id": 16, "ja": "私は彼が来ることを期待している。", "en": "I expect him to come." },
+  { "id": 17, "ja": "彼は試験に合格できなかった。", "en": "He failed to pass the exam." },
+  { "id": 18, "ja": "遠慮なく聞いてください。", "en": "Don't hesitate to ask." },
+  { "id": 19, "ja": "彼は疲れているようだ。", "en": "He seems to be tired." },
+  { "id": 20, "ja": "私はここで働くつもりだ。", "en": "I intend to work here." }
+]

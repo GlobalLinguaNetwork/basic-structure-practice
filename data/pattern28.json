@@ -1,0 +1,22 @@
+[
+  { "id": 1, "ja": "自分の名前がリストに書かれているのを見た。", "en": "I saw my name written on the list." },
+  { "id": 2, "ja": "名前が呼ばれるのが聞こえた。", "en": "I heard my name called." },
+  { "id": 3, "ja": "映画が日本語に吹き替えられているのを観た。", "en": "I watched the movie dubbed in Japanese." },
+  { "id": 4, "ja": "爆発で地面が揺れるのを感じた。", "en": "I felt the ground shaken by the explosion." },
+  { "id": 5, "ja": "窓が割られているのに気づいた。", "en": "I noticed the window broken." },
+  { "id": 6, "ja": "犯人が警察に逮捕されるのを見た。", "en": "I saw the criminal arrested by the police." },
+  { "id": 7, "ja": "国歌が演奏されるのが聞こえた。", "en": "I heard the national anthem played." },
+  { "id": 8, "ja": "古い建物が取り壊されるのを見ていた。", "en": "I watched the old building demolished." },
+  { "id": 9, "ja": "自転車が盗まれているのを発見した。", "en": "I found my bike stolen." },
+  { "id": 10, "ja": "書類がシュレッダーにかけられるのを見た。", "en": "I saw the documents shredded." },
+  { "id": 11, "ja": "誰かがピアノを演奏しているのを耳にした。", "en": "I heard the piano played beautifully." },
+  { "id": 12, "ja": "電気がつけっぱなしなのに気づいた。", "en": "I noticed the light left on." },
+  { "id": 13, "ja": "誰かに優しく手を握られるのを感じた。", "en": "I felt my hand squeezed gently." },
+  { "id": 14, "ja": "家が改装されるのを見ていた。", "en": "I watched the house renovated." },
+  { "id": 15, "ja": "プレゼントがベッドの下に隠されているのを見つけた。", "en": "I found the present hidden under the bed." },
+  { "id": 16, "ja": "メッセージが繰り返されるのが聞こえた。", "en": "I heard the message repeated." },
+  { "id": 17, "ja": "ドアが内側から鍵をかけられているのに気づいた。", "en": "I noticed the door locked from the inside." },
+  { "id": 18, "ja": "車がレッカー車で運ばれるのを見た。", "en": "I saw the car towed away." },
+  { "id": 19, "ja": "結果が掲示板に貼り出されているのを観察した。", "en": "I observed the results posted on the board." },
+  { "id": 20, "ja": "花火が打ち上げられるのを眺めていた。", "en": "I watched the fireworks displayed." }
+]

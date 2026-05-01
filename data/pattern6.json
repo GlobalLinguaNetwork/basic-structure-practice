@@ -1,0 +1,22 @@
+[
+  { "id": 1, "ja": "彼が嘘をついているのは明らかだ。", "en": "It is clear that he is lying." },
+  { "id": 2, "ja": "明日雨が降る可能性がある。", "en": "It is possible that it will rain tomorrow." },
+  { "id": 3, "ja": "彼らが試合に勝つ可能性が高い。", "en": "It is likely that they will win the game." },
+  { "id": 4, "ja": "金曜日までにこれを終わらせることが重要だ。", "en": "It is important that we finish this by Friday." },
+  { "id": 5, "ja": "彼が来なかったのは驚きだ。", "en": "It is surprising that he didn't come." },
+  { "id": 6, "ja": "あなたが疲れているのは明白だ。", "en": "It is obvious that you are tired." },
+  { "id": 7, "ja": "価格が下がる可能性は低い。", "en": "It is unlikely that the price will drop." },
+  { "id": 8, "ja": "彼女が電話に出ないのは奇妙だ。", "en": "It is strange that she isn't answering the phone." },
+  { "id": 9, "ja": "フライトがキャンセルになったのは残念だ。", "en": "It is unfortunate that the flight was canceled." },
+  { "id": 10, "ja": "全員がルールに従うことが必要だ。", "en": "It is necessary that everyone follow the rules." },
+  { "id": 11, "ja": "彼が成功するのは確実だ。", "en": "It is certain that he will succeed." },
+  { "id": 12, "ja": "私の名前を覚えていてくれたなんてすごい（驚きだ）。", "en": "It is amazing that you remembered my name." },
+  { "id": 13, "ja": "あなたが一緒に来られないのは悲しい（残念だ）。", "en": "It is sad that you can't come with us." },
+  { "id": 14, "ja": "野菜を食べるのが健康的だということはよく知られている。", "en": "It is well known that eating vegetables is healthy." },
+  { "id": 15, "ja": "計画がうまくいっているのは明白だ。", "en": "It is evident that the plan is working." },
+  { "id": 16, "ja": "そのニュースが本当だったことは衝撃的だ。", "en": "It is shocking that the news was true." },
+  { "id": 17, "ja": "時間通りに到着することが不可欠だ。", "en": "It is essential that you arrive on time." },
+  { "id": 18, "ja": "間違いがあるのは明らかだ。", "en": "It is apparent that there is a mistake." },
+  { "id": 19, "ja": "もう10月だなんて驚きだ。", "en": "It is surprising that it's already October." },
+  { "id": 20, "ja": "彼らが同意する可能性は低い。", "en": "It is improbable that they will agree." }
+]

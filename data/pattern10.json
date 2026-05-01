@@ -1,0 +1,22 @@
+[
+  { "id": 1, "ja": "彼は正しいと思う。", "en": "I think (that) he is right." },
+  { "id": 2, "ja": "あなたが忙しいのは分かっています。", "en": "I know (that) you are busy." },
+  { "id": 3, "ja": "すべてが順調であることを願っています。", "en": "I hope (that) everything is okay." },
+  { "id": 4, "ja": "これは間違っていると感じます。", "en": "I feel (that) this is wrong." },
+  { "id": 5, "ja": "もう遅すぎると気づきました。", "en": "I realize (that) it is too late." },
+  { "id": 6, "ja": "彼女は緊張しているだろうなと思います。", "en": "I imagine (that) she is nervous." },
+  { "id": 7, "ja": "彼がカナダ出身だったと記憶しています。", "en": "I remember (that) he is from Canada." },
+  { "id": 8, "ja": "彼が嘘つきではないかと疑っています。", "en": "I suspect (that) he is a liar." },
+  { "id": 9, "ja": "あなたが変わったことに気づきました。", "en": "I notice (that) you are different." },
+  { "id": 10, "ja": "彼女が私の上司だということを忘れがちです。", "en": "I forget (that) she is my boss." },
+  { "id": 11, "ja": "準備ができているものと思っています。", "en": "I assume (that) you are ready." },
+  { "id": 12, "ja": "彼が幸せそうに見えます（分かります）。", "en": "I see (that) he is happy." },
+  { "id": 13, "ja": "これが本当だとは思えません。", "en": "I doubt (that) this is true." },
+  { "id": 14, "ja": "あなたが怒っているのは理解できます。", "en": "I understand (that) you are upset." },
+  { "id": 15, "ja": "それは可能だと思います（推測します）。", "en": "I suppose (that) it is possible." },
+  { "id": 16, "ja": "彼は疲れているんだろうなと思います。", "en": "I guess (that) he is tired." },
+  { "id": 17, "ja": "これは難しいと感じます。", "en": "I find (that) this is difficult." },
+  { "id": 18, "ja": "彼女はきっと驚いているはずです。", "en": "I bet (that) she is surprised." },
+  { "id": 19, "ja": "もう遅すぎないかと不安です。", "en": "I fear (that) it is too late." },
+  { "id": 20, "ja": "彼に才能があることは認めます。", "en": "I admit (that) he is talented." }
+]

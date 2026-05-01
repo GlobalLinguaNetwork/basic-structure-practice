@@ -1,0 +1,22 @@
+[
+  { "id": 1, "ja": "整備士に車を修理してもらった。", "en": "He had the mechanic fix his car." },
+  { "id": 2, "ja": "秘書に会議の予定を入れてもらった。", "en": "I had the secretary schedule the meeting." },
+  { "id": 3, "ja": "美容師に髪を切ってもらった。", "en": "She had the hairdresser cut her hair." },
+  { "id": 4, "ja": "清掃員に部屋を掃除してもらった。", "en": "I had the cleaner tidy up the room." },
+  { "id": 5, "ja": "弁護士に契約書を確認してもらった。", "en": "He had the lawyer review the contract." },
+  { "id": 6, "ja": "IT担当者にソフトウェアをインストールしてもらった。", "en": "I had the IT person install the software." },
+  { "id": 7, "ja": "会計士に数字をチェックしてもらった。", "en": "She had the accountant check the numbers." },
+  { "id": 8, "ja": "ウエイターに会計を持ってきてもらった。", "en": "I had the waiter bring the check." },
+  { "id": 9, "ja": "カメラマンに写真を撮ってもらった。", "en": "He had the photographer take a picture." },
+  { "id": 10, "ja": "アシスタントに書類を印刷してもらった。", "en": "I had the assistant print the document." },
+  { "id": 11, "ja": "配管工に水漏れを修理してもらった。", "en": "She had the plumber fix the leak." },
+  { "id": 12, "ja": "上司に書類にサインしてもらった。", "en": "I had the manager sign the report." },
+  { "id": 13, "ja": "大家さんにヒーターを直してもらった。", "en": "He had the landlord repair the heater." },
+  { "id": 14, "ja": "専門家に結果を検証してもらった。", "en": "I had the expert examine the results." },
+  { "id": 15, "ja": "スタッフに部屋の準備をしてもらった。", "en": "She had the staff prepare the room." },
+  { "id": 16, "ja": "警備員に門を開けてもらった。", "en": "I had the guard open the gate." },
+  { "id": 17, "ja": "仕立て屋にスーツを直してもらった。", "en": "He had the tailor alter his suit." },
+  { "id": 18, "ja": "シェフに特別な料理を作ってもらった。", "en": "I had the chef prepare a special dish." },
+  { "id": 19, "ja": "修理工に洗濯機を直してもらった。", "en": "She had the repairman fix the washing machine." },
+  { "id": 20, "ja": "運転手に駅まで送ってもらった。", "en": "I had the driver take me to the station." }
+]

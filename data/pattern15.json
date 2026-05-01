@@ -1,0 +1,22 @@
+[
+  { "id": 1, "ja": "あなたは私を幸せにする。", "en": "You make me happy." },
+  { "id": 2, "ja": "君のせいで気が狂いそうだよ（イライラする）。", "en": "You drive me crazy." },
+  { "id": 3, "ja": "この映画はつまらないと思う。", "en": "I find this movie boring." },
+  { "id": 4, "ja": "ドアを開けたままにしておいて。", "en": "Keep the door open." },
+  { "id": 5, "ja": "あなたは私を緊張させる。", "en": "You make me nervous." },
+  { "id": 6, "ja": "窓を開けたままにしておいて。", "en": "Leave the window open." },
+  { "id": 7, "ja": "この曲を聴くと悲しくなる。", "en": "This song makes me sad." },
+  { "id": 8, "ja": "彼を親友だと思っている。", "en": "I consider him my best friend." },
+  { "id": 9, "ja": "（仕事などは）今日はここまでにしよう。", "en": "Let's call it a day." },
+  { "id": 10, "ja": "部屋をきれいにしておいて。", "en": "Keep the room clean." },
+  { "id": 11, "ja": "その計画を成功だと考えている。", "en": "I consider the plan a success." },
+  { "id": 12, "ja": "彼をキャプテンにした。", "en": "They made him the captain." },
+  { "id": 13, "ja": "赤ちゃんをレオと名付けた。", "en": "They named the baby Leo." },
+  { "id": 14, "ja": "この仕事は難しいと思う。", "en": "I find this job difficult." },
+  { "id": 15, "ja": "壁を白く塗った。", "en": "I painted the wall white." },
+  { "id": 16, "ja": "彼を正直な人だと思う。", "en": "I find him honest." },
+  { "id": 17, "ja": "それで彼が勝者になる。", "en": "That makes him the winner." },
+  { "id": 18, "ja": "彼女をマネージャーに任命した。", "en": "I appointed her manager." },
+  { "id": 19, "ja": "これを『白い嘘』と呼びます。", "en": "We call this a white lie." },
+  { "id": 20, "ja": "彼女を大統領に選出した。", "en": "They elected her president." }
+]

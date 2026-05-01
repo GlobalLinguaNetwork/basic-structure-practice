@@ -1,0 +1,22 @@
+[
+  { "id": 1, "ja": "机の上にペンが一本あります。", "en": "There is a pen on the desk." },
+  { "id": 2, "ja": "棚に本が何冊かあります。", "en": "There are some books on the shelf." },
+  { "id": 3, "ja": "冷蔵庫の中に牛乳が入っています。", "en": "There is some milk in the fridge." },
+  { "id": 4, "ja": "壁に一枚の写真が飾ってあります。", "en": "There is a picture on the wall." },
+  { "id": 5, "ja": "壁にクモがいます。", "en": "There is a spider on the wall." },
+  { "id": 6, "ja": "家の近くに公園があります。", "en": "There is a park near my house." },
+  { "id": 7, "ja": "ベッドの隣にランプがあります。", "en": "There is a lamp next to the bed." },
+  { "id": 8, "ja": "ポケットの中に鍵が入っています。", "en": "There is a key in my pocket." },
+  { "id": 9, "ja": "通りの向こう側にカフェがあります。", "en": "There is a cafe across the street." },
+  { "id": 10, "ja": "今夜、空に星がたくさん出ています。", "en": "There are many stars in the sky tonight." },
+  { "id": 11, "ja": "家の裏に美しい庭があります。", "en": "There is a beautiful garden behind the house." },
+  { "id": 12, "ja": "花瓶に花が生けてあります。", "en": "There are flowers in the vase." },
+  { "id": 13, "ja": "この通りの突き当たりに駅があります。", "en": "There is a train station at the end of the street." },
+  { "id": 14, "ja": "箱の中にサプライズが入っています。", "en": "There is a surprise in the box." },
+  { "id": 15, "ja": "待合室に男性が一人います。", "en": "There is a man in the waiting room." },
+  { "id": 16, "ja": "道路にたくさんの車が止まっています。", "en": "There are many cars on the road." },
+  { "id": 17, "ja": "クッキーの瓶にいくつか残っています。", "en": "There are some cookies in the jar." },
+  { "id": 18, "ja": "左側に非常口があります。", "en": "There is an emergency exit on the left." },
+  { "id": 19, "ja": "テーブルの上にあなた宛の伝言があります。", "en": "There is a message for you on the table." },
+  { "id": 20, "ja": "機械に何か問題があります。", "en": "There is a problem with the machine." }
+]

@@ -1,0 +1,22 @@
+[
+  { "id": 1, "ja": "新しい言語を学ぶことは難しい。", "en": "It is difficult to learn a new language." },
+  { "id": 2, "ja": "十分な睡眠をとることは重要だ。", "en": "It is important to get enough sleep." },
+  { "id": 3, "ja": "早起きするのは大変だ。", "en": "It is hard to wake up early." },
+  { "id": 4, "ja": "新しい場所へ旅行するのはワクワクする。", "en": "It is exciting to travel to new places." },
+  { "id": 5, "ja": "定期的に運動することは必要だ。", "en": "It is necessary to exercise regularly." },
+  { "id": 6, "ja": "間違いを犯すのは簡単だ。", "en": "It is easy to make mistakes." },
+  { "id": 7, "ja": "夜に一人で歩くのは危険だ。", "en": "It is dangerous to walk alone at night." },
+  { "id": 8, "ja": "列に並んで待つのは退屈だ。", "en": "It is boring to wait in line." },
+  { "id": 9, "ja": "誰もが納得する答えを出すのは不可能だ。", "en": "It is impossible to please everyone." },
+  { "id": 10, "ja": "メモを取ることは役に立つ。", "en": "It is helpful to take notes." },
+  { "id": 11, "ja": "人前で話すのは怖い。", "en": "It is scary to speak in public." },
+  { "id": 12, "ja": "習慣を変えるのは挑戦しがいがある（難しいが価値がある）。", "en": "It is challenging to change your habits." },
+  { "id": 13, "ja": "他人を助けることはやりがいがある。", "en": "It is rewarding to help others." },
+  { "id": 14, "ja": "緊張するのは当たり前だ。", "en": "It is natural to feel nervous." },
+  { "id": 15, "ja": "英語ができると便利だ。", "en": "It is useful to know English." },
+  { "id": 16, "ja": "週末にリラックスするのは気持ちいい。", "en": "It is nice to relax on the weekend." },
+  { "id": 17, "ja": "趣味を持つことは素晴らしい。", "en": "It is wonderful to have a hobby." },
+  { "id": 18, "ja": "そんな人に出会えることは稀だ。", "en": "It is rare to find such a person." },
+  { "id": 19, "ja": "またあなたに会えて嬉しいです。", "en": "It is great to see you again." },
+  { "id": 20, "ja": "学習中に間違いをすることはよくあることだ。", "en": "It is common to make mistakes when learning." }
+]

@@ -1,0 +1,23 @@
+
+[
+  { "id": 1, "ja": "仕事を終わらせておいて。", "en": "Get the work done." },
+  { "id": 2, "ja": "車を修理してもらった。", "en": "I had my car repaired." },
+  { "id": 3, "ja": "ドアを鍵かけずに開けておいた。", "en": "I left the door unlocked." },
+  { "id": 4, "ja": "自分の意図を相手に理解させた。", "en": "I made myself understood." },
+  { "id": 5, "ja": "これを今日中に終わらせたい。", "en": "I want this finished today." },
+  { "id": 6, "ja": "財布が盗まれていることに気づいた。", "en": "I found my wallet stolen." },
+  { "id": 7, "ja": "名前が呼ばれるのを聞いた。", "en": "I heard my name called." },
+  { "id": 8, "ja": "部屋を掃除してもらった。", "en": "I had the room cleaned." },
+  { "id": 9, "ja": "電気をつけたままにしておいた。", "en": "I left the light turned on." },
+  { "id": 10, "ja": "状況が改善されるのを見届けた。", "en": "I saw the situation improved." },
+  { "id": 11, "ja": "書類に署名してもらった。", "en": "I had the documents signed." },
+  { "id": 12, "ja": "部屋をペンキで塗り直してもらった。", "en": "I got the room painted." },
+  { "id": 13, "ja": "ドアが施錠されているのを知った。", "en": "I found the door locked." },
+  { "id": 14, "ja": "問題を未解決のままにした。", "en": "I left the issue unresolved." },
+  { "id": 15, "ja": "新しいルールを周知させた。", "en": "I made the new rules known." },
+  { "id": 16, "ja": "支払いを済ませてほしい。", "en": "I want the bill paid." },
+  { "id": 17, "ja": "プロジェクトが完了するのを見守った。", "en": "I saw the project completed." },
+  { "id": 18, "ja": "レポートを印刷してもらった。", "en": "I had the report printed." },
+  { "id": 19, "ja": "チケットを予約してもらった。", "en": "I got the ticket booked." },
+  { "id": 20, "ja": "小包を包んだままにしておいた。", "en": "I left the package wrapped." }
+]

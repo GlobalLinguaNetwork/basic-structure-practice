@@ -1,0 +1,22 @@
+[
+  { "id": 1, "ja": "彼は私にプレゼントをくれた。", "en": "He gave me a present." },
+  { "id": 2, "ja": "彼女は私に秘密を教えてくれた。", "en": "She told me a secret." },
+  { "id": 3, "ja": "私は彼女にメッセージを送った。", "en": "I sent her a message." },
+  { "id": 4, "ja": "彼は私に写真を見せてくれた。", "en": "He showed me the photo." },
+  { "id": 5, "ja": "お母さんが私に朝食を作ってくれた。", "en": "My mom made me breakfast." },
+  { "id": 6, "ja": "私は彼に飲み物を買った。", "en": "I bought him a drink." },
+  { "id": 7, "ja": "彼は私に一杯の水を運んできた。", "en": "He brought me a glass of water." },
+  { "id": 8, "ja": "彼女が私に英語を教えてくれた。", "en": "She taught me English." },
+  { "id": 9, "ja": "彼は私にお金を貸してくれた。", "en": "He lent me some money." },
+  { "id": 10, "ja": "私は彼女に手紙を書いた。", "en": "I wrote her a letter." },
+  { "id": 11, "ja": "彼が私にコーヒーを買ってきてくれた。", "en": "He got me a coffee." },
+  { "id": 12, "ja": "彼女が私に塩を回してくれた。", "en": "She passed me the salt." },
+  { "id": 13, "ja": "彼が私に物語を読んでくれた。", "en": "He read me a story." },
+  { "id": 14, "ja": "私は彼にメモを残した。", "en": "I left him a note." },
+  { "id": 15, "ja": "彼女が私に仕事を提案した。", "en": "She offered me a job." },
+  { "id": 16, "ja": "彼が私の席を取っておいてくれた。", "en": "He saved me a seat." },
+  { "id": 17, "ja": "先生が私にいくつか助言をくれた。", "en": "My teacher gave me some advice." },
+  { "id": 18, "ja": "私は彼女にご褒美を約束した。", "en": "I promised her a reward." },
+  { "id": 19, "ja": "彼は私にお金を支払った。", "en": "He paid me the money." },
+  { "id": 20, "ja": "彼女が私に新しいプロジェクトを割り当てた。", "en": "She assigned me a new project." }
+]

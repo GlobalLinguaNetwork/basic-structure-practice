@@ -1,0 +1,22 @@
+[
+  { "id": 1, "ja": "その家は有名な建築家によって設計された。", "en": "The house was designed by a famous architect." },
+  { "id": 2, "ja": "手紙は彼女の祖母によって書かれた。", "en": "The letter was written by her grandmother." },
+  { "id": 3, "ja": "窓は激しい嵐によって割られた。", "en": "The window was broken by the heavy storm." },
+  { "id": 4, "ja": "料理はシェフによって準備された。", "en": "The meal was prepared by the chef." },
+  { "id": 5, "ja": "重大な決定は役員によってなされた。", "en": "The decision was made by the board members." },
+  { "id": 6, "ja": "小包は配達員によって届けられた。", "en": "The package was delivered by the courier." },
+  { "id": 7, "ja": "その記事は新聞社によって掲載された。", "en": "The article was published by the newspaper." },
+  { "id": 8, "ja": "電話は彼のアシスタントによって対応された。", "en": "The phone was answered by his assistant." },
+  { "id": 9, "ja": "車はプロの運転手によって運転された。", "en": "The car was driven by a professional driver." },
+  { "id": 10, "ja": "方針は政府によって変更された。", "en": "The policy was changed by the government." },
+  { "id": 11, "ja": "ケーキは弟に食べられてしまった。", "en": "The cake was eaten by my little brother." },
+  { "id": 12, "ja": "部屋はインテリアデザイナーによって飾られた。", "en": "The room was decorated by interior designers." },
+  { "id": 13, "ja": "ファイルは知らない誰かによって消去された。", "en": "The files were deleted by an unknown user." },
+  { "id": 14, "ja": "その曲は人気歌手によって歌われた。", "en": "The song was sung by a popular artist." },
+  { "id": 15, "ja": "プロジェクトは私の同僚によって管理された。", "en": "The project was managed by my colleague." },
+  { "id": 16, "ja": "芝生は父によって刈られた。", "en": "The lawn was mowed by my father." },
+  { "id": 17, "ja": "事件の謎は探偵によって解かれた。", "en": "The mystery was solved by the detective." },
+  { "id": 18, "ja": "間違いは編集者によって修正された。", "en": "The mistake was corrected by the editor." },
+  { "id": 19, "ja": "スピーチは抗議者によって遮られた。", "en": "The speech was interrupted by a protestor." },
+  { "id": 20, "ja": "金メダルはその選手によって獲得された。", "en": "The gold medal was won by the athlete." }
+]

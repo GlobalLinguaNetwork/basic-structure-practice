@@ -1,0 +1,22 @@
+[
+  { "id": 1, "ja": "その映画は良かった。", "en": "The movie was good." },
+  { "id": 2, "ja": "その映画は退屈だった。", "en": "The movie was boring." },
+  { "id": 3, "ja": "その映画は面白かった。", "en": "The movie was interesting." },
+  { "id": 4, "ja": "その映画は素晴らしかった。", "en": "The movie was great." },
+  { "id": 5, "ja": "その映画はひどかった。", "en": "The movie was bad." },
+  { "id": 6, "ja": "その映画は怖かった。", "en": "The movie was scary." },
+  { "id": 7, "ja": "その映画は悲しかった。", "en": "The movie was sad." },
+  { "id": 8, "ja": "その映画は長かった。", "en": "The movie was long." },
+  { "id": 9, "ja": "その映画は刺激的だった。", "en": "The movie was exciting." },
+  { "id": 10, "ja": "その映画は驚くべき内容だった。", "en": "The movie was amazing." },
+  { "id": 11, "ja": "その映画は奇妙だった。", "en": "The movie was strange." },
+  { "id": 12, "ja": "その映画は短かった。", "en": "The movie was short." },
+  { "id": 13, "ja": "その映画は感動的だった。", "en": "The movie was touching." },
+  { "id": 14, "ja": "その映画は印象的だった。", "en": "The movie was impressive." },
+  { "id": 15, "ja": "その映画は分かりにくかった。", "en": "The movie was confusing." },
+  { "id": 16, "ja": "その映画は展開が遅かった。", "en": "The movie was slow." },
+  { "id": 17, "ja": "その映画は予想通りだった。", "en": "The movie was predictable." },
+  { "id": 18, "ja": "その映画は現実的だった。", "en": "The movie was realistic." },
+  { "id": 19, "ja": "その映画は完璧だった。", "en": "The movie was perfect." },
+  { "id": 20, "ja": "その映画はひどく変だった。", "en": "The movie was weird." }
+]

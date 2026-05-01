@@ -1,0 +1,22 @@
+[
+  { "id": 1, "ja": "私はコーヒーを飲んだ。", "en": "I drank coffee." },
+  { "id": 2, "ja": "彼女は本を読んだ。", "en": "She read a book." },
+  { "id": 3, "ja": "彼らは映画を見た。", "en": "They watched a movie." },
+  { "id": 4, "ja": "私たちは昼食を食べた。", "en": "We had lunch." },
+  { "id": 5, "ja": "彼はメールを書いた。", "en": "He wrote an email." },
+  { "id": 6, "ja": "私は窓を開けた。", "en": "I opened the window." },
+  { "id": 7, "ja": "彼女はドアを閉めた。", "en": "She closed the door." },
+  { "id": 8, "ja": "彼らはサッカーをした。", "en": "They played soccer." },
+  { "id": 9, "ja": "私たちはその美術館を訪れた。", "en": "We visited the museum." },
+  { "id": 10, "ja": "私は新しいスマホを買った。", "en": "I bought a new phone." },
+  { "id": 11, "ja": "彼は鍵を失くした。", "en": "He lost his keys." },
+  { "id": 12, "ja": "彼女はプロジェクトを完了させた。", "en": "She finished the project." },
+  { "id": 13, "ja": "私たちは会議を始めた。", "en": "We started the meeting." },
+  { "id": 14, "ja": "彼らは家を掃除した。", "en": "They cleaned the house." },
+  { "id": 15, "ja": "私はそのニュースを聞いた。", "en": "I heard the news." },
+  { "id": 16, "ja": "彼は両親に電話した。", "en": "He called his parents." },
+  { "id": 17, "ja": "彼女は間違いを犯した。", "en": "She made a mistake." },
+  { "id": 18, "ja": "私たちは休憩をとった。", "en": "We took a break." },
+  { "id": 19, "ja": "彼らは答えを見つけた。", "en": "They found the answer." },
+  { "id": 20, "ja": "私は車を洗った。", "en": "I washed the car." }
+]
