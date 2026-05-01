@@ -256,6 +256,19 @@
             font-size: 0.78rem;
         }
 
+        .pattern-hint {
+            text-align: center;
+            margin-bottom: 18px;
+            font-size: 0.9rem;
+            color: var(--accent);
+            font-weight: bold;
+            letter-spacing: 0.04em;
+        }
+
+        .pattern-hint::before {
+            content: "📌 文型：";
+        }
+
         footer {
             text-align: center;
             margin-top: 40px;
@@ -595,6 +608,7 @@
             <span id="patternBadge" class="pattern-badge">Pattern 1</span>
         </div>
         <div class="question-text" id="questionJa">日本語文がここに表示されます</div>
+        <div id="patternHint" class="pattern-hint"></div>
 
         <!-- 和文英訳モード用 -->
         <div id="translate-input-area">
@@ -928,6 +942,7 @@
         document.getElementById('progressText').innerText = `Question: ${currentIndex + 1} / 30`;
         document.getElementById('patternBadge').innerText = `Pattern ${currentQuestion.patternId}`;
         document.getElementById('questionJa').innerText = currentQuestion.ja;
+        document.getElementById('patternHint').innerText = PATTERN_MASTER[currentQuestion.patternId];
         document.getElementById('resultBox').style.display = 'none';
         document.getElementById('submitBtn').style.display = 'block';
         document.getElementById('nextBtn').style.display = 'none';
